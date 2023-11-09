@@ -89,4 +89,5 @@ export default async function getCroppedImg(
       resolve(URL.createObjectURL(file));
     }, "image/jpeg");
   });
+  
 }
